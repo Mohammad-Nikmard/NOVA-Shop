@@ -1,0 +1,47 @@
+name: nova_ui
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.13.1
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.3.0
+  flutter_gen: ^5.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
+  test: ^1.25.6
+  build_runner: ^2.16.0
+  flutter_gen_runner: ^5.15.0
+
+flutter_gen:
+  output: lib/gen/
+
+  integrations:
+    image: true
+    flutter_svg: true
+    rive: true
+    lottie: true
+
+    
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/icons/
+
+  fonts:
+    - family: NSSB
+      fonts:
+        - asset: assets/fonts/NotoSans-SemiBold.ttf
+    - family: NSM
+      fonts:
+        - asset: assets/fonts/NotoSans-Medium.ttf
+    - family: NSR
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
