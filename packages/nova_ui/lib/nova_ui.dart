@@ -1,8 +1,1 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library;
-
-export 'src/nova_ui_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/widgets/icon/icon_widget.dart';

@@ -38,10 +38,10 @@ flutter:
   fonts:
     - family: NSSB
       fonts:
-        - asset: assets/fonts/NotoSans-SemiBold.ttf
+        - asset: lib/assets/fonts/NotoSans-SemiBold.ttf
     - family: NSM
       fonts:
-        - asset: assets/fonts/NotoSans-Medium.ttf
+        - asset: lib/assets/fonts/NotoSans-Medium.ttf
     - family: NSR
       fonts:
-        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: lib/assets/fonts/NotoSans-Regular.ttf
