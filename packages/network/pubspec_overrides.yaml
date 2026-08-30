@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: local_storage
+dependency_overrides:
+  local_storage:
+    path: ../local_storage
