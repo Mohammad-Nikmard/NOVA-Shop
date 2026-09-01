@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-final class AppColors {
+final class NovaColors {
   static const primary900 = Color(0xff1A1A1A);
   static const primary800 = Color(0xff333333);
   static const primary700 = Color(0xff4D4D4D);
@@ -13,4 +13,5 @@ final class AppColors {
   static const Color white = Color(0xffFFFFFF);
   static const Color success = Color(0xff0C9409);
   static const Color error = Color(0xffED1010);
+  static const Color blue = Color(0xff1877F2);
 }

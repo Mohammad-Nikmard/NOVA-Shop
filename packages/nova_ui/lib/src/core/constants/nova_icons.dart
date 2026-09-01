@@ -7,6 +7,8 @@ final class NovaIcons {
 
   static const String _base = 'packages/nova_ui/';
 
+  // Icons
+
   static final address = NovaIcons._(
     '$_base${Assets.lib.assets.icons.address.path}',
   );
@@ -249,5 +251,23 @@ final class NovaIcons {
 
   static final mastercard = NovaIcons._(
     '$_base${Assets.lib.assets.icons.mastercard.path}',
+  );
+
+  static final whiteFacebook = NovaIcons._(
+    '$_base${Assets.lib.assets.icons.logosFacebook.path}',
+  );
+
+  static final appLogo = NovaIcons._(
+    '$_base${Assets.lib.assets.icons.appLogo.path}',
+  );
+
+  static final onboardingElement = NovaIcons._(
+    '$_base${Assets.lib.assets.icons.onboardingElement.path}',
+  );
+
+  // Images
+
+  static final onboardingFassionGuy = NovaIcons._(
+    '$_base${Assets.lib.assets.images.onboardingFassionGuy.path}',
   );
 }
